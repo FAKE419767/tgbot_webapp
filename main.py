@@ -12,7 +12,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "https://tgbot-webappfront-7yjyaf0cf-lifanna1.vercel.app/"
+        "https://tgbot-webappfront-7yjyaf0cf-lifanna1.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PATCH", "DELETE"],
